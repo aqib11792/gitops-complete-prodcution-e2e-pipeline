@@ -6,14 +6,14 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: complete-prodcution-e2e-app
+      app: complete-prodcution-e2e-pipeline-1
   template:
     metadata:
       labels:
-        app: complete-prodcution-e2e-app
+        app: complete-prodcution-e2e-pipeline-1
   spec:
     containers:
-      name: complete-prodcution-e2e-app
+      name: complete-prodcution-e2e-pipeline-1
       image: aq1bdocker/complete-proocution-e2e-pipeline:1.0.0-13
       resources:
         limits:
