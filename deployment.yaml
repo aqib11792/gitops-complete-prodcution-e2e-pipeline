@@ -11,13 +11,13 @@ spec:
     metadata:
       labels:
         app: complete-prodcution-e2e-app
-  spec:
-    containers:
-      name: complete-prodcution-e2e-app
-      image: aq1bdocker/complete-prodcution-e2e-pipeline:1.0.0-13
-      resources:
-        limits:
-          memory: "256Mi"
-          cpu: "500m"
-      ports:
-        containerPort: 8080
+    spec:
+      containers:
+        name: complete-prodcution-e2e-app
+        image: aq1bdocker/complete-prodcution-e2e-pipeline:1.0.0-13
+        resources:
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+        ports:
+          containerPort: 8080
